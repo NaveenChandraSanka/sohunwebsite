@@ -231,7 +231,7 @@ function Hero() {
           color: COLORS.vermillion, letterSpacing: "0.1em",
           marginBottom: 48,
         }}>
-          THESIS — 2025
+          THESIS — 2026
         </div>
       </Reveal>
 
@@ -1244,7 +1244,7 @@ function Footer() {
         fontFamily: "'DM Mono', monospace", fontSize: 12,
         color: "rgba(245,240,235,0.25)",
       }}>
-        © 2025 Sohun Sanka
+        © 2026 Sohun Sanka
       </span>
       <div style={{
         display: "flex", alignItems: "center", gap: 8,
