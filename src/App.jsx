@@ -961,32 +961,33 @@ function Author() {
           }}>The Author</span>
         </div>
       </Reveal>
+
       <div style={{
         maxWidth: 1200, margin: "0 auto",
         display: "grid",
         gridTemplateColumns: "1fr 1fr",
         gap: 80,
       }}>
-         {/* Left — Identity */}
+        {/* Left — Identity */}
         <div>
           <Reveal>
-                  <div style={{
-            width: 120, height: 120,
-            borderRadius: 24,
-            overflow: "hidden",
-            marginBottom: 32,
-          }}>
-            <img
-              src="/headshotsohun.png"
-              alt="Sohun Sanka"
-              style={{
-                width: "100%",
-                height: "100%",
-                objectFit: "cover",
-                objectPosition: "center top",
-              }}
-            />
-          </div>
+            <div style={{
+              width: 120, height: 120,
+              borderRadius: 24,
+              overflow: "hidden",
+              marginBottom: 32,
+            }}>
+              <img
+                src="/headshotsohun.png"
+                alt="Sohun Sanka"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  objectPosition: "center top",
+                }}
+              />
+            </div>
           </Reveal>
 
           <Reveal delay={0.1}>
