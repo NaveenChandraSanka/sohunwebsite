@@ -969,21 +969,24 @@ function Author() {
         gap: 80,
       }}>
         {/* Left — Identity */}
-        <div>
-          <Reveal>
-            <div style={{
-              width: 120, height: 120,
-              borderRadius: 24,
-              backgroundColor: COLORS.ink,
-              display: "flex", alignItems: "center", justifyContent: "center",
-              marginBottom: 32,
-            }}>
-              <span style={{
-                fontFamily: "'Instrument Serif', Georgia, serif",
-                fontSize: 48, fontStyle: "italic",
-                color: COLORS.vermillion,
-              }}>S</span>
-            </div>
+                  <div style={{
+            width: 120, height: 120,
+            borderRadius: 24,
+            overflow: "hidden",
+            marginBottom: 32,
+          }}>
+            <img
+              src="/headshotsohun.png"
+              alt="Sohun Sanka"
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+                objectPosition: "center top",
+              }}
+            />
+          </div>
+
           </Reveal>
 
           <Reveal delay={0.1}>
